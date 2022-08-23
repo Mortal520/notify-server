@@ -37,8 +37,8 @@ export const textCardTemplate = (data: TextCardTemplateProps) => {
   const dateLength = dayjs(date).diff(CONFIG.start_stamp, 'day')
 
   // 生日倒计时
-  const birthdays = `${birthday.replace('-', '年').replace('-', '月')}日`
-  const birthdaysLength = dayjs(birthday).diff(CONFIG.birthday, 'day')
+  // const birthdays = `${birthday.replace('-', '年').replace('-', '月')}日`
+   //const birthdaysLength = dayjs(birthday).diff(CONFIG.birthday, 'day')
   
   // 拼接内容
   let description = `${area} | ${today} | ${week}`
@@ -54,7 +54,7 @@ export const textCardTemplate = (data: TextCardTemplateProps) => {
 农历 | ${lubarmonth}${lunarday} ${lunar_festival_info} ${jieqi_info}`
   }
 
-  description += `\n${birthdays}\n\n今日天气状况：
+  description += `\n今日天气状况：
 天气：${weather}
 ${wind}：${windsc}
 温度：${lowest} ~ ${highest}
