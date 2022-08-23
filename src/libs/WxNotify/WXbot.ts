@@ -23,7 +23,7 @@ export default async function WXbot(msg: string) {
         msgtype: 'text',
         text: {
           content: msg,
-          mentioned_list: ['@all'], // 通知所有人或单个成员（支持ID和手机号）
+          mentioned_list: ['@d23e9f73641245377603f943c7ea48b5'], // 通知所有人或单个成员（支持ID和手机号）
           // mentioned_mobile_list: ['@all'],
         },
       },
