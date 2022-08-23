@@ -35,10 +35,6 @@ export const textCardTemplate = (data: TextCardTemplateProps) => {
   const today = `${date.replace('-', '年').replace('-', '月')}日`
   const dateLength = dayjs(date).diff(CONFIG.start_stamp, 'day')
 
-  // 生日倒计时
-  // const birthdays = `${birthday.replace('-', '年').replace('-', '月')}日`
-   //const birthdaysLength = dayjs(birthday).diff(CONFIG.birthday, 'day')
-  
   // 拼接内容
   let description = `${area} | ${today} | ${week}`
 
