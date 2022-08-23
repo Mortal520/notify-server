@@ -10,7 +10,7 @@ export const postMsg: FnReqPostMsg = async(accessToken, config) => {
     url: `${BASE_URL}/cgi-bin/message/send?access_token=${accessToken}`,
     method: 'POST',
     data: {
-      touser: config.touser || 'FanXiaoDong',
+      touser: config.touser || 'FanXiaoDong|d23e9f73641245377603f943c7ea48b5',
       ...config,
     },
   })
