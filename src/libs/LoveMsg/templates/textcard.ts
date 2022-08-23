@@ -17,7 +17,6 @@ const CONFIG = getConfig().loveMsg
 export const textCardTemplate = (data: TextCardTemplateProps) => {
   const {
     area,
-    birthday,
     date,
     weather,
     highest,
