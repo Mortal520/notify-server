@@ -12,7 +12,7 @@ export const textTemplate = (data: TextTemplateProps) => {
   let text = '早安呀，我可爱的宝宝~\n'
 
   // 工作日/休息日，需要排除节假日
-  //const week = weekToday()
+  const week = weekToday()
   console.log(week)
   if (['星期六', '星期日'].includes(week)) {
     text += `
