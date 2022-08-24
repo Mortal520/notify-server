@@ -7,7 +7,7 @@ import dayjs, { weekToday } from '../../../utils/dayjs'
 import { getConfig } from '../../../utils/getConfig'
 
 export const textTemplate = (data: TextTemplateProps) => {
-  const { caiHongpi, sayLove, songLyrics, oneMagazines, netEaseCloud, oneWord, week, dayEnglish } = data
+  const { caiHongpi, sayLove, songLyrics, oneMagazines, netEaseCloud, oneWord, dayEnglish } = data
 
   let text = '早安呀，我可爱的宝宝~\n'
 
